@@ -1,5 +1,10 @@
-// constによる再代入
-const nickname = "taro"
-console.log(nickname)
-nickname = "jiro"
-console.log(nickname)
+var str = "webcamp"
+
+function foo() { 
+  var str
+  console.log(str)
+  str = "dmm webcamp"
+  console.log(str)
+}
+
+foo()
